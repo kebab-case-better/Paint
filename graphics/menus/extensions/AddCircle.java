@@ -39,7 +39,7 @@ public class AddCircle {
 		myPanel.add(tFill);
 		myPanel.add(tBorder);
 
-		int result = JOptionPane.showConfirmDialog(null, myPanel,"New Rectangle", JOptionPane.OK_CANCEL_OPTION);
+		int result = JOptionPane.showConfirmDialog(null, myPanel,"New Circle", JOptionPane.OK_CANCEL_OPTION);
 		if (result == JOptionPane.OK_OPTION && this.tester(myPanel,tFill,tBorder,colorBorder)) {
 			int x = Integer.valueOf(xField.getText());
 			int y = Integer.valueOf(yField.getText());
